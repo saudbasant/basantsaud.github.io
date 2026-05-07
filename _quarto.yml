@@ -1,0 +1,96 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "**/*.qmd"
+    - "!academic-cv/"
+
+# Meta
+description-meta: "Academic Website for Basant saud"
+author-meta: "Basant saud"
+
+website:
+  page-navigation: true
+  title: "Basant saud"
+  image: "files/profiles/basant.png"
+  favicon: "/files/profiles/icon.png"
+  description: "Academic Website for Basant saud"
+
+  page-footer:
+    center: "&copy; Copyright 2026, Basant saud"
+    
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about/index.qmd
+        text: About
+      - text: Research
+        menu:
+          - href: research/index.qmd
+            text: Overview
+          - href: projects/index.qmd
+            text: Projects
+      - href: tutorials/index.qmd
+        text: Tutorials
+      - href: blog/index.qmd
+        text: Blog
+      - href: publications/index.qmd
+        text: Publications
+      - text: CV
+        href: cv/
+
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:saudbasant.vet@gmail.com"
+      - text: "{{< ai orcid >}}"
+        aria-label: orcid
+        href: https://orcid.org/my-orcid?orcid=0000-0002-9851-1807
+        target: _blank
+      - text: "{{< ai google-scholar >}}"
+        aria-label: google-scholar
+        href: https://scholar.google.com/citations?user=7v5sc4sAAAAJ
+        target: _blank
+      - text: "{{< ai researchgate >}}"
+        aria-label: researchgate
+        href: https://www.researchgate.net/profile/Basant-Saud
+        target: _blank
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/vet-basant/
+        target: _blank
+      - icon: github
+        aria-label: github
+        href: https://github.com/saudbasant
+        target: _blank
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/@basantvet
+        target: _blank
+
+
+# some important configs 
+site-url: "https://basantsaud.github.io/"
+search: false
+reader-mode: true
+draft-mode: unlinked
+  
+# google analytics 
+google-analytics:
+    tracking-id: ""
+    anonymize-ip: true
+    
+    
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-expand: 1
+    mermaid:
+      theme: neutral
+
+
+

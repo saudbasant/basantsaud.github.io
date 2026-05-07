@@ -1,0 +1,30 @@
+---
+title: "Basant Saud"
+subtitle: "| Research Assistant | Immunology & Virology | Veterianrian |"
+description-meta: "Quarto Academic Website for Basant"
+image: files/profiles/basant.png
+page-layout: full
+toc: false
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:saudbasant.vet@gmail.com 
+    - icon: linkedin
+      href: https://www.linkedin.com/in/vet-basant/
+      target: _blank
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/my-orcid?orcid=0000-0002-9851-1807
+      target: _blank
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=7v5sc4sAAAAJ
+      target: _blank
+---
+
+::: {#hero-heading}
+Hello, I am Basant Saud.
+
+
+:::

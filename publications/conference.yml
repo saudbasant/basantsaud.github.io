@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Conference Presentations
+# ──────────────────────────────────────────────────────────────────────────────
+# Fields:
+#   title          – Presentation title (required)
+#   authors        – Author string; wrap "**Name**" to bold your name
+#   corresponding  – true if you are the corresponding author
+#   year           – Presentation year (integer)
+#   venue          – Conference name
+#   location       – City, Country
+#   subtype        – poster | oral
+#   type           – Must be: conference
+#   categories     – List of research topics for filtering
+# ──────────────────────────────────────────────────────────────────────────────
+
+- title: "Conference presentations coming soon"
+  year: 2026
+  type: conference

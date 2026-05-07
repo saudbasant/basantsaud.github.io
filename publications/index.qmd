@@ -1,0 +1,19 @@
+---
+title: "Publications"
+subtitle: "Peer-reviewed articles, manuscripts under review, and conference presentations"
+title-block-banner: true
+page-layout: full
+listing:
+  - id: publications
+    contents:
+      - peer-reviewed.yml
+      - under-review.yml
+      - conference.yml
+    template: ../_templates/publication-card.ejs
+    sort-ui: false
+    filter-ui: false
+    page-size: 200
+---
+
+::: {#publications}
+:::

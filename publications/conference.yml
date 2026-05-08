@@ -10,9 +10,34 @@
 #   location       – City, Country
 #   subtype        – poster | oral
 #   type           – Must be: conference
+#   doi            – Full DOI / URL
 #   categories     – List of research topics for filtering
 # ──────────────────────────────────────────────────────────────────────────────
 
-- title: "Conference presentations coming soon"
-  year: 2026
+- title: "Detection of antimicrobial-resistant bacterial pathogens from houseflies in different locations of Dhaka city"
+  corresponding: false
+  year: 2025
+  venue: "7th International Scientific Conference on Food Safety and Health, Dhaka, Bangladesh"
+  location: "Dhaka, Bangladesh"
   type: conference
+  subtype: poster
+  link: "https://doi.org/10.5281/zenodo.15383860"
+  categories:
+    - Food safety
+    - Bacteriology
+    
+- title: "Molecular detection of PPR and FMD viruses in environmental samples collected from livestock markets in the Dhaka district of Bangladesh"
+  corresponding: false
+  year: 2025
+  venue: "7th PPR Global Research and Expertise Network (PPR-GREN) Annual Meeting"
+  location: "Abu Dhabi, UAE"
+  type: conference
+  subtype: oral
+  categories:
+    - Virology
+    - PPR
+    - FMD
+    - Infectious disease
+    - Environmental sampling
+    
+

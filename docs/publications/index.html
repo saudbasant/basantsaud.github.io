@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-corresponding','listing-year','listing-journal','listing-volume','listing-issue','listing-doi','listing-type','listing-categories','listing-article','listing-book-title','listing-chapter','listing-editors','listing-publisher',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-corresponding','listing-year','listing-journal','listing-volume','listing-issue','listing-doi','listing-type','listing-categories','listing-article','listing-book-title','listing-chapter','listing-editors','listing-publisher','listing-venue','listing-location','listing-subtype','listing-link',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-corresponding","listing-year","listing-journal","listing-volume","listing-issue","listing-doi","listing-type","listing-categories","listing-article","listing-book-title","listing-chapter","listing-editors","listing-publisher"],
+      searchColumns: ["listing-title","listing-authors","listing-corresponding","listing-year","listing-journal","listing-volume","listing-issue","listing-doi","listing-type","listing-categories","listing-article","listing-book-title","listing-chapter","listing-editors","listing-publisher","listing-venue","listing-location","listing-subtype","listing-link"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -272,7 +272,7 @@ window.Quarto = {
 <div class="pub-main-col">
 <div class="pub-stats">
 <div class="pub-stat">
-<span class="pub-stat-n">9</span><span class="pub-stat-l">Total</span>
+<span class="pub-stat-n">10</span><span class="pub-stat-l">Total</span>
 </div>
 <div class="pub-stat-divider">
 
@@ -290,13 +290,13 @@ window.Quarto = {
 
 </div>
 <div class="pub-stat">
-<span class="pub-stat-n pub-stat-conf">2</span><span class="pub-stat-l">Conferences</span>
+<span class="pub-stat-n pub-stat-conf">3</span><span class="pub-stat-l">Conferences</span>
 </div>
 </div>
 <div id="pub-list" class="pub-list">
 <div id="pub-yr-2026" class="pub-year-section">
 <div class="pub-year-header">
-<span class="pub-yr-title">2026</span><span class="pub-yr-count">4 publications</span>
+<span class="pub-yr-title">2026</span><span class="pub-yr-count">3 publications</span>
 </div>
 <div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Cat">
 <div class="pub-badges">
@@ -346,24 +346,10 @@ Under review papers coming soon
 <em></em> · 2026
 </div>
 </div>
-<div class="pub-item pub-conf" data-type="conference" data-cats="">
-<div class="pub-badges">
-<span class="pbadge pbadge-conf">Conference</span>
-</div>
-<div class="pub-title">
-Conference presentations coming soon
-</div>
-<div class="pub-authors">
-
-</div>
-<div class="pub-source">
-<em></em> · 2026
-</div>
-</div>
 </div>
 <div id="pub-yr-2025" class="pub-year-section">
 <div class="pub-year-header">
-<span class="pub-yr-title">2025</span><span class="pub-yr-count">4 publications</span>
+<span class="pub-yr-title">2025</span><span class="pub-yr-count">6 publications</span>
 </div>
 <div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Parasitology,Dog,Cat,Zoonoses">
 <div class="pub-badges">
@@ -433,6 +419,34 @@ Biswas, S., Shil, S. C., Akter, R., <strong>Saud, B.</strong>, Kakon, S. D., Nir
 <a href="https://doi.org/10.3329/ralf.v11i2.76062" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
 </div>
 </div>
+<div class="pub-item pub-conf" data-type="conference" data-cats="Food safety,Bacteriology">
+<div class="pub-badges">
+<span class="pbadge pbadge-conf">Poster</span><span class="pbadge pbadge-cat">Food safety</span><span class="pbadge pbadge-cat">Bacteriology</span>
+</div>
+<div class="pub-title">
+Detection of antimicrobial-resistant bacterial pathogens from houseflies in different locations of Dhaka city
+</div>
+<div class="pub-authors">
+
+</div>
+<div class="pub-source">
+<em>7th International Scientific Conference on Food Safety and Health, Dhaka, Bangladesh</em> · Dhaka, Bangladesh · 2025
+</div>
+</div>
+<div class="pub-item pub-conf" data-type="conference" data-cats="Virology,PPR,FMD,Infectious disease,Environmental sampling">
+<div class="pub-badges">
+<span class="pbadge pbadge-conf">Oral Presentation</span><span class="pbadge pbadge-cat">Virology</span><span class="pbadge pbadge-cat">PPR</span><span class="pbadge pbadge-cat">FMD</span><span class="pbadge pbadge-cat">Infectious disease</span><span class="pbadge pbadge-cat">Environmental sampling</span>
+</div>
+<div class="pub-title">
+Molecular detection of PPR and FMD viruses in environmental samples collected from livestock markets in the Dhaka district of Bangladesh
+</div>
+<div class="pub-authors">
+
+</div>
+<div class="pub-source">
+<em>7th PPR Global Research and Expertise Network (PPR-GREN) Annual Meeting</em> · Abu Dhabi, UAE · 2025
+</div>
+</div>
 </div>
 <div id="pub-yr-2024" class="pub-year-section">
 <div class="pub-year-header">
@@ -470,7 +484,7 @@ Type
 </h5>
 <div class="pub-sidebar-btns">
 <button class="pub-fbtn active" data-ftype="all">
-All <span class="pub-fcount">(9)</span>
+All <span class="pub-fcount">(10)</span>
 </button>
 <button class="pub-fbtn" data-ftype="peer-reviewed">
 Peer-Reviewed <span class="pub-fcount">(7)</span>
@@ -479,7 +493,7 @@ Peer-Reviewed <span class="pub-fcount">(7)</span>
 Under Review <span class="pub-fcount">(0)</span>
 </button>
 <button class="pub-fbtn" data-ftype="conference">
-Conference <span class="pub-fcount">(2)</span>
+Conference <span class="pub-fcount">(3)</span>
 </button>
 </div>
 <h5 class="pub-sidebar-title anchored" style="margin-top:1.25rem;">
@@ -488,6 +502,9 @@ Topic
 <div class="pub-sidebar-btns">
 <button class="pub-fbtn active" data-fcat="all">
 All
+</button>
+<button class="pub-fbtn" data-fcat="Bacteriology">
+Bacteriology
 </button>
 <button class="pub-fbtn" data-fcat="Cat">
 Cat
@@ -501,17 +518,32 @@ Dog
 <button class="pub-fbtn" data-fcat="Environment">
 Environment
 </button>
+<button class="pub-fbtn" data-fcat="Environmental sampling">
+Environmental sampling
+</button>
+<button class="pub-fbtn" data-fcat="FMD">
+FMD
+</button>
+<button class="pub-fbtn" data-fcat="Food safety">
+Food safety
+</button>
 <button class="pub-fbtn" data-fcat="Heavy metals">
 Heavy metals
 </button>
 <button class="pub-fbtn" data-fcat="Immunology">
 Immunology
 </button>
+<button class="pub-fbtn" data-fcat="Infectious disease">
+Infectious disease
+</button>
 <button class="pub-fbtn" data-fcat="LSD">
 LSD
 </button>
 <button class="pub-fbtn" data-fcat="Molecular detection">
 Molecular detection
+</button>
+<button class="pub-fbtn" data-fcat="PPR">
+PPR
 </button>
 <button class="pub-fbtn" data-fcat="Parasitology">
 Parasitology

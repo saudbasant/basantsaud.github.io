@@ -1,0 +1,32 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Book chapters
+# ──────────────────────────────────────────────────────────────────────────────
+# Fields:
+#   title          – chapter title (required)
+#   authors        – Author string; wrap "**Name**" to bold your name
+#   corresponding  – true if you are the corresponding author
+#   year           – Publication year (integer)
+#   publisher      - Publication house
+#   volume         - volume number
+#   type           – book chapter
+#   doi            – Full DOI / URL
+#   categories     – List of research topics for filtering
+# ──────────────────────────────────────────────────────────────────────────────
+- book_title: "Global Perspectives of Toxic Metals in Bio Environs: Volume 1: Environmental Impact, Ecotoxicology, Health Concerns, and Modelling"
+  editors: "M. A. Mehmood, R. A. Bhat, & G. H. Dar"
+  title: "A Poisoned Paradise: The Threat of Heavy Metals in Our Aquatic Water Bodies"
+  authors: "Ali, M. M., Hossain, D., Shanila, F. A., **Saud, B.**, Hossen, S., Manon, M. R. K., Lawal, J. T., Baidya, P., Begum, M., & Bristi, S. Z. T."
+  corresponding: false
+  year: 2025
+  publisher: "Springer Nature"
+  volume: "1" 
+  doi: "https://doi.org/10.1007/978-3-031-89725-2_11"
+  type: book-chapter
+  categories:
+    - Heavy metals
+    - Environment
+    - Pollution
+    
+    
+    
+

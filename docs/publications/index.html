@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-corresponding','listing-year','listing-journal','listing-volume','listing-issue','listing-doi','listing-type','listing-categories','listing-article','listing-book-title','listing-chapter','listing-editors','listing-publisher','listing-venue','listing-location','listing-subtype',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-corresponding','listing-year','listing-journal','listing-volume','listing-issue','listing-article','listing-doi','listing-type','listing-categories','listing-book_title','listing-editors','listing-publisher','listing-venue','listing-location','listing-subtype',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-corresponding","listing-year","listing-journal","listing-volume","listing-issue","listing-doi","listing-type","listing-categories","listing-article","listing-book-title","listing-chapter","listing-editors","listing-publisher","listing-venue","listing-location","listing-subtype"],
+      searchColumns: ["listing-title","listing-authors","listing-corresponding","listing-year","listing-journal","listing-volume","listing-issue","listing-article","listing-doi","listing-type","listing-categories","listing-book_title","listing-editors","listing-publisher","listing-venue","listing-location","listing-subtype"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -205,7 +205,7 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
       <h1 class="title">Publications</h1>
-            <p class="subtitle lead">Peer-reviewed articles and Conference presentations</p>
+            <p class="subtitle lead">Peer-reviewed articles, Book chapters, and Conference presentations</p>
                       </div>
   </div>
     
@@ -242,13 +242,13 @@ window.Quarto = {
 
 </div>
 <div class="pub-stat">
-<span class="pub-stat-n pub-stat-peer">7</span><span class="pub-stat-l">Peer-Reviewed</span>
+<span class="pub-stat-n pub-stat-peer">6</span><span class="pub-stat-l">Articles</span>
 </div>
 <div class="pub-stat-divider">
 
 </div>
 <div class="pub-stat">
-<span class="pub-stat-n pub-stat-under">0</span><span class="pub-stat-l">Under Review</span>
+<span class="pub-stat-n pub-stat-under">1</span><span class="pub-stat-l">Book Chapters</span>
 </div>
 <div class="pub-stat-divider">
 
@@ -262,9 +262,9 @@ window.Quarto = {
 <div class="pub-year-header">
 <span class="pub-yr-title">2026</span><span class="pub-yr-count">2 publications</span>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Cat">
+<div class="pub-item pub-peer" data-type="article" data-cats="Cat">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-corr">Corresponding Author</span><span class="pbadge pbadge-cat">Cat</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-corr">Corresponding Author</span><span class="pbadge pbadge-cat">Cat</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.5455/JRVS.20251017060359" target="_blank" rel="noopener">Injury patterns in cats with high-rise syndrome: A prospective case series from Central Veterinary Hospital, Dhaka, Bangladesh</a>
@@ -273,15 +273,15 @@ window.Quarto = {
 <strong>Saud, B.,</strong> Biswas, L., Sikder, T., &amp; Khatun, A.
 </div>
 <div class="pub-source">
-<em>Journal of Research in Veterinary Sciences</em>, <strong>6</strong>(1) (2026)
+<p><em>Journal of Research in Veterinary Sciences</em>, <strong>6</strong>(1), 64-72 (2026)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.5455/JRVS.20251017060359" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
 </div>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Molecular detection,Cat,Zoonoses,Toxoplasma,Serology">
+<div class="pub-item pub-peer" data-type="article" data-cats="Molecular detection,Cat,Zoonoses,Toxoplasma,Serology">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">Molecular detection</span><span class="pbadge pbadge-cat">Cat</span><span class="pbadge pbadge-cat">Zoonoses</span><span class="pbadge pbadge-cat">Toxoplasma</span><span class="pbadge pbadge-cat">Serology</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-cat">Molecular detection</span><span class="pbadge pbadge-cat">Cat</span><span class="pbadge pbadge-cat">Zoonoses</span><span class="pbadge pbadge-cat">Toxoplasma</span><span class="pbadge pbadge-cat">Serology</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.1016/j.fawpar.2026.e00323" target="_blank" rel="noopener">Serological and molecular investigation of Toxoplasma gondii in domestic cats in Dhaka City, Bangladesh</a>
@@ -290,7 +290,7 @@ window.Quarto = {
 Hasan, Md. F., Nahar, A., Harun, A. B., Bayazid, A. A., Sutradhar, S., Bristi, S. Z. T., <strong>Saud, B.,</strong> Hossain, D., Islam, Md. A., Rahman, Md. A., &amp; Karim, M. R.
 </div>
 <div class="pub-source">
-<em>Food and Waterborne Parasitology</em>, <strong>42</strong>, e00323 (2026)
+<p><em>Food and Waterborne Parasitology</em>, <strong>42</strong>, e00323 (2026)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.1016/j.fawpar.2026.e00323" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
@@ -301,9 +301,9 @@ Hasan, Md. F., Nahar, A., Harun, A. B., Bayazid, A. A., Sutradhar, S., Bristi, S
 <div class="pub-year-header">
 <span class="pub-yr-title">2025</span><span class="pub-yr-count">6 publications</span>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Parasitology,Dog,Cat,Zoonoses">
+<div class="pub-item pub-peer" data-type="article" data-cats="Parasitology,Dog,Cat,Zoonoses">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">Parasitology</span><span class="pbadge pbadge-cat">Dog</span><span class="pbadge pbadge-cat">Cat</span><span class="pbadge pbadge-cat">Zoonoses</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-cat">Parasitology</span><span class="pbadge pbadge-cat">Dog</span><span class="pbadge pbadge-cat">Cat</span><span class="pbadge pbadge-cat">Zoonoses</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.1016/j.vprsr.2025.101358" target="_blank" rel="noopener">Prevalence, risk factors, and zoonotic implications of gastrointestinal parasites in dogs and cats in Dhaka City, Bangladesh</a>
@@ -312,15 +312,15 @@ Hasan, Md. F., Nahar, A., Harun, A. B., Bayazid, A. A., Sutradhar, S., Bristi, S
 Bayazid, A. A., Hasan, Md. F., Sutradhar, S., Nahar, A., Harun, A. B., Sultana, T., Rehena, J., Saha, J., Tito, M. H., Bristi, S. Z. T., <strong>Saud, B.,</strong> &amp; Karim, M. R.
 </div>
 <div class="pub-source">
-<em>Veterinary Parasitology: Regional Studies and Reports</em>, <strong>65</strong>, 101358 (2025)
+<p><em>Veterinary Parasitology: Regional Studies and Reports</em>, <strong>65</strong>, 101358 (2025)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.1016/j.vprsr.2025.101358" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
 </div>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Parasitology,Cattle">
+<div class="pub-item pub-peer" data-type="article" data-cats="Parasitology,Cattle">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">Parasitology</span><span class="pbadge pbadge-cat">Cattle</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-cat">Parasitology</span><span class="pbadge pbadge-cat">Cattle</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.1007/s11686-025-01043-w" target="_blank" rel="noopener">Prevalence of Gastrointestinal Parasites and Associated Risk Factors Among Dairy Cattle in Bangladesh: An 8-Year Retrospective Study</a>
@@ -329,32 +329,15 @@ Bayazid, A. A., Hasan, Md. F., Sutradhar, S., Nahar, A., Harun, A. B., Sultana, 
 Hossain, D., Banowary, B., <strong>Saud, B.,</strong> Haq, I., Bristi, S. Z. T., Adesola, R. O., Saeed, S. I., Jannat, T., Khatun, A., Kulsum, U., Bhowmik, H. R., Masroure, A. J., &amp; Amin, M. N.
 </div>
 <div class="pub-source">
-<em>Acta Parasitologica</em>, <strong>70</strong>(3), 110 (2025)
+<p><em>Acta Parasitologica</em>, <strong>70</strong>(3), 110 (2025)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.1007/s11686-025-01043-w" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
 </div>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Heavy metals,Environment,Pollution">
+<div class="pub-item pub-peer" data-type="article" data-cats="LSD,Cattle,Virology">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">Heavy metals</span><span class="pbadge pbadge-cat">Environment</span><span class="pbadge pbadge-cat">Pollution</span>
-</div>
-<div class="pub-title">
-<a href="https://doi.org/10.1007/978-3-031-89725-2_11" target="_blank" rel="noopener"></a>
-</div>
-<div class="pub-authors">
-Ali, M. M., Hossain, D., Shanila, F. A., <strong>Saud, B.</strong>, Hossen, S., Manon, M. R. K., Lawal, J. T., Baidya, P., Begum, M., &amp; Bristi, S. Z. T.
-</div>
-<div class="pub-source">
-<em></em>, <strong>1</strong> (2025)
-</div>
-<div class="pub-actions">
-<a href="https://doi.org/10.1007/978-3-031-89725-2_11" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
-</div>
-</div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="LSD,Cattle,Virology">
-<div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">LSD</span><span class="pbadge pbadge-cat">Cattle</span><span class="pbadge pbadge-cat">Virology</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-cat">LSD</span><span class="pbadge pbadge-cat">Cattle</span><span class="pbadge pbadge-cat">Virology</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.3329/ralf.v11i2.76062" target="_blank" rel="noopener">Prevalence of lumpy skin disease in cattle at Netrokona sadar in Bangladesh</a>
@@ -363,10 +346,27 @@ Ali, M. M., Hossain, D., Shanila, F. A., <strong>Saud, B.</strong>, Hossen, S., 
 Biswas, S., Shil, S. C., Akter, R., <strong>Saud, B.</strong>, Kakon, S. D., Nirob, A. I., &amp; Masum, M. A.
 </div>
 <div class="pub-source">
-<em>Research in Agriculture Livestock and Fisheries</em>, <strong>11</strong>(2), 137–147 (2025)
+<p><em>Research in Agriculture Livestock and Fisheries</em>, <strong>11</strong>(2), 137–147 (2025)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.3329/ralf.v11i2.76062" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
+</div>
+</div>
+<div class="pub-item pub-under" data-type="book-chapter" data-cats="Heavy metals,Environment,Pollution">
+<div class="pub-badges">
+<span class="pbadge pbadge-under">Book Chapter</span><span class="pbadge pbadge-cat">Heavy metals</span><span class="pbadge pbadge-cat">Environment</span><span class="pbadge pbadge-cat">Pollution</span>
+</div>
+<div class="pub-title">
+<a href="https://doi.org/10.1007/978-3-031-89725-2_11" target="_blank" rel="noopener">A Poisoned Paradise: The Threat of Heavy Metals in Our Aquatic Water Bodies</a>
+</div>
+<div class="pub-authors">
+Ali, M. M., Hossain, D., Shanila, F. A., <strong>Saud, B.</strong>, Hossen, S., Manon, M. R. K., Lawal, J. T., Baidya, P., Begum, M., &amp; Bristi, S. Z. T.
+</div>
+<div class="pub-source">
+<p><em>Springer Nature</em>, <strong>1</strong>(2025)</p>
+</div>
+<div class="pub-actions">
+<a href="https://doi.org/10.1007/978-3-031-89725-2_11" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
 </div>
 </div>
 <div class="pub-item pub-conf" data-type="conference" data-cats="Food safety,Bacteriology">
@@ -380,7 +380,7 @@ Biswas, S., Shil, S. C., Akter, R., <strong>Saud, B.</strong>, Kakon, S. D., Nir
 
 </div>
 <div class="pub-source">
-<em>7th International Scientific Conference on Food Safety and Health, Dhaka, Bangladesh</em> · Dhaka, Bangladesh · 2025
+<p><em>7th International Scientific Conference on Food Safety and Health, Dhaka, Bangladesh</em> · Dhaka, Bangladesh · 2025</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.5281/zenodo.15383860" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
@@ -397,7 +397,7 @@ Molecular detection of PPR and FMD viruses in environmental samples collected fr
 
 </div>
 <div class="pub-source">
-<em>7th PPR Global Research and Expertise Network (PPR-GREN) Annual Meeting</em> · Abu Dhabi, UAE · 2025
+<p><em>7th PPR Global Research and Expertise Network (PPR-GREN) Annual Meeting</em> · Abu Dhabi, UAE · 2025</p>
 </div>
 </div>
 </div>
@@ -405,9 +405,9 @@ Molecular detection of PPR and FMD viruses in environmental samples collected fr
 <div class="pub-year-header">
 <span class="pub-yr-title">2024</span><span class="pub-yr-count">1 publication</span>
 </div>
-<div class="pub-item pub-peer" data-type="peer-reviewed" data-cats="Immunology,Poultry,Environment">
+<div class="pub-item pub-peer" data-type="article" data-cats="Immunology,Poultry,Environment">
 <div class="pub-badges">
-<span class="pbadge pbadge-peer">Peer-Reviewed</span><span class="pbadge pbadge-cat">Immunology</span><span class="pbadge pbadge-cat">Poultry</span><span class="pbadge pbadge-cat">Environment</span>
+<span class="pbadge pbadge-peer">Article</span><span class="pbadge pbadge-cat">Immunology</span><span class="pbadge pbadge-cat">Poultry</span><span class="pbadge pbadge-cat">Environment</span>
 </div>
 <div class="pub-title">
 <a href="https://doi.org/10.1016/j.heliyon.2024.e34819" target="_blank" rel="noopener">Salinity negatively correlates with the production and immunity of chicken: A molecular insight for food security and safety issues</a>
@@ -416,7 +416,7 @@ Molecular detection of PPR and FMD viruses in environmental samples collected fr
 Biswas, S., Masum, M. A., Sarkar, S. K., <strong>Saud, B.,</strong> Akter, R., Islam, K. B. M. S., Karim, S. J. I., Rahman, M. M., Golbar, H. M., Alam, Md. E., Islam, M. A., Begum, M., Rahman, M. M., Ichii, O., &amp; Kon, Y.
 </div>
 <div class="pub-source">
-<em>Heliyon</em>, <strong>10</strong>(15), e34819 (2024)
+<p><em>Heliyon</em>, <strong>10</strong>(15), e34819 (2024)</p>
 </div>
 <div class="pub-actions">
 <a href="https://doi.org/10.1016/j.heliyon.2024.e34819" class="pub-doi-btn" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Article</a>
@@ -439,11 +439,11 @@ Type
 <button class="pub-fbtn active" data-ftype="all">
 All <span class="pub-fcount">(9)</span>
 </button>
-<button class="pub-fbtn" data-ftype="peer-reviewed">
-Peer-Reviewed <span class="pub-fcount">(7)</span>
+<button class="pub-fbtn" data-ftype="article">
+Article <span class="pub-fcount">(6)</span>
 </button>
-<button class="pub-fbtn" data-ftype="under-review">
-Under Review <span class="pub-fcount">(0)</span>
+<button class="pub-fbtn" data-ftype="book-chapter">
+Book Chapter <span class="pub-fcount">(1)</span>
 </button>
 <button class="pub-fbtn" data-ftype="conference">
 Conference <span class="pub-fcount">(2)</span>

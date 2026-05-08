@@ -1,5 +1,5 @@
 # ──────────────────────────────────────────────────────────────────────────────
-# Peer-Reviewed Publications
+# Research Articles
 # ──────────────────────────────────────────────────────────────────────────────
 # Fields:
 #   title          – Paper title (required)
@@ -15,7 +15,7 @@
 #   categories     – List of research topics for filtering
 # ──────────────────────────────────────────────────────────────────────────────
 
-# ── Peer-reviewed ─────────────────────────────────────────────────────────────
+# ── Peer-reviewed articles─────────────────────────────────────────────────────────────
 - title: "Injury patterns in cats with high-rise syndrome: A prospective case series from Central Veterinary Hospital, Dhaka, Bangladesh"
   authors: "**Saud, B.,** Biswas, L., Sikder, T., & Khatun, A."
   corresponding: true
@@ -23,8 +23,9 @@
   journal: "Journal of Research in Veterinary Sciences"
   volume: "6"
   issue: "1"
+  article: "64-72"
   doi: "https://doi.org/10.5455/JRVS.20251017060359"
-  type: peer-reviewed
+  type: article
   categories:
     - Cat
 
@@ -36,7 +37,7 @@
   volume: "42"
   article: "e00323"
   doi: "https://doi.org/10.1016/j.fawpar.2026.e00323"
-  type: peer-reviewed
+  type: article
   categories:
     - Molecular detection
     - Cat
@@ -52,7 +53,7 @@
   volume: "65" 
   article: "101358"
   doi: "https://doi.org/10.1016/j.vprsr.2025.101358"
-  type: peer-reviewed
+  type: article
   categories:
     - Parasitology
     - Dog
@@ -68,25 +69,10 @@
   issue: "3"  
   article: "110"
   doi: "https://doi.org/10.1007/s11686-025-01043-w"
-  type: peer-reviewed
+  type: article
   categories:
     - Parasitology
     - Cattle
-
-- book-title: "Global Perspectives of Toxic Metals in Bio Environs: Volume 1: Environmental Impact, Ecotoxicology, Health Concerns, and Modelling"
-  chapter: "A Poisoned Paradise: The Threat of Heavy Metals in Our Aquatic Water Bodies"
-  authors: "Ali, M. M., Hossain, D., Shanila, F. A., **Saud, B.**, Hossen, S., Manon, M. R. K., Lawal, J. T., Baidya, P., Begum, M., & Bristi, S. Z. T."
-  editors: "M. A. Mehmood, R. A. Bhat, & G. H. Dar" 
-  corresponding: false
-  year: 2025
-  publisher: "Springer Nature"
-  volume: "1" 
-  doi: "https://doi.org/10.1007/978-3-031-89725-2_11"
-  type: peer-reviewed
-  categories:
-    - Heavy metals
-    - Environment
-    - Pollution
 
 - title: "Salinity negatively correlates with the production and immunity of chicken: A molecular insight for food security and safety issues"
   authors: "Biswas, S., Masum, M. A., Sarkar, S. K., **Saud, B.,** Akter, R., Islam, K. B. M. S., Karim, S. J. I., Rahman, M. M., Golbar, H. M., Alam, Md. E., Islam, M. A., Begum, M., Rahman, M. M., Ichii, O., & Kon, Y."
@@ -97,7 +83,7 @@
   issue: "15"  
   article: "e34819"
   doi: "https://doi.org/10.1016/j.heliyon.2024.e34819"
-  type: peer-reviewed
+  type: article
   categories:
     - Immunology
     - Poultry
@@ -112,7 +98,7 @@
   issue: "2" 
   article: "137–147"
   doi: "https://doi.org/10.3329/ralf.v11i2.76062"
-  type: peer-reviewed
+  type: article
   categories:
     - LSD
     - Cattle

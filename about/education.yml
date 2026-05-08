@@ -5,7 +5,8 @@
   degree: "MS"
   field: "Veterinary Pathology"
   status: "Running"
-  description: "Relevant Coursework: "
+  description: "Relevant Coursework: Advanced General Pathology, Systemic Pathology, Avian Pathology, Pathology of Infectious Diseases, Necropsy, Clinical Pathology,
+  Molecular Pathology and Biotechnology, Immunopathology, Oncology"
   thesis: ""
   gpa: ""
 
@@ -16,7 +17,9 @@
   degree: "B.Sc. Vet. Sci. & A.H."
   field: "Veterinary Medicine and Animal Science"
   status: "completed"
-  description: "Relevant Coursework: Biostatistics, Public Health and Hygiene, Bioinformatics I, Bioinformatics II."
-  thesis: ""
+  description: "Relevant Coursework: Anatomy, Histology, Physiology, Biochemistry, Microbiology, Parasitology, Pharmacology, Toxicology,
+  Pathology, Surgery, Theriogenology, Medicine, Public Health, Animal Production and Management, Poultry Science, Animal Nutrition, Genetics, & Breeding,
+  Dairy Science"
+  thesis: "[Injury patterns in cats with high-rise syndrome: a prospective case series from Central Veterinary Hospital, Dhaka, Bangladesh](https://www.wisdomgale.com/jrvs/?mno=291006)"
   gpa: "3.92/4.00"
 

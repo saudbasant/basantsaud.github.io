@@ -1,6 +1,6 @@
 ---
 title: "Basant Saud"
-subtitle: "| Research Assistant | Immunology & Virology | Veterianrian |"
+subtitle: "Researcher | Veterianrian"
 description-meta: "Quarto Academic Website for Basant"
 image: files/profiles/basant.png
 page-layout: full
@@ -21,10 +21,23 @@ about:
     - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=7v5sc4sAAAAJ
       target: _blank
+    - text: "{{< ai researchgate >}}"
+      aria-label: researchgate
+      href: https://www.researchgate.net/profile/Basant-Saud
+      target: _blank
+    - icon: github
+      aria-label: github
+      href: https://github.com/saudbasant
+      target: _blank
+    - icon: youtube
+      aria-label: youtube
+      href: https://www.youtube.com/@basantvet
+      target: _blank
 ---
 
 ::: {#hero-heading}
-Hello, I am Basant Saud.
+I am Basant Saud, a **Veterinary science** graduate. Currently, I am MS student in the [department of Pathology](https://sau.edu.bd/department/pathology), [Sher-e-Bangla Agricultural University](https://sau.edu.bd/), Bangladesh and Research assistant in the lab of [Amina Khatun, PhD](https://sau.edu.bd/teacher/261).
 
+My research interests are Virology, Immunology, Molecular Epidemiology, Genomics, Transcriptomics, Zoonoses and One health.
 
 :::

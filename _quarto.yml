@@ -41,38 +41,9 @@ website:
       - text: CV
         href: cv/
 
-    right:
-      - icon: envelope
-        aria-label: email
-        href: "mailto:saudbasant.vet@gmail.com"
-      - text: "{{< ai orcid >}}"
-        aria-label: orcid
-        href: https://orcid.org/my-orcid?orcid=0000-0002-9851-1807
-        target: _blank
-      - text: "{{< ai google-scholar >}}"
-        aria-label: google-scholar
-        href: https://scholar.google.com/citations?user=7v5sc4sAAAAJ
-        target: _blank
-      - text: "{{< ai researchgate >}}"
-        aria-label: researchgate
-        href: https://www.researchgate.net/profile/Basant-Saud
-        target: _blank
-      - icon: linkedin
-        aria-label: linkedin
-        href: https://www.linkedin.com/in/vet-basant/
-        target: _blank
-      - icon: github
-        aria-label: github
-        href: https://github.com/saudbasant
-        target: _blank
-      - icon: youtube
-        aria-label: youtube
-        href: https://www.youtube.com/@basantvet
-        target: _blank
-
 
 # some important configs 
-site-url: "https://basantsaud.github.io/"
+site-url: "https://saudbasant.github.io/"
 search: false
 reader-mode: true
 draft-mode: unlinked

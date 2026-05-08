@@ -1,13 +1,12 @@
 ---
 title: "Publications"
-subtitle: "Peer-reviewed articles, manuscripts under review, and conference presentations"
+subtitle: "Peer-reviewed articles and Conference presentations"
 title-block-banner: true
 page-layout: full
 listing:
   - id: publications
     contents:
       - peer-reviewed.yml
-      - under-review.yml
       - conference.yml
     template: ../_templates/publication-card.ejs
     sort-ui: false

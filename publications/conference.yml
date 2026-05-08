@@ -13,7 +13,6 @@
 #   doi            – Full DOI / URL
 #   categories     – List of research topics for filtering
 # ──────────────────────────────────────────────────────────────────────────────
-
 - title: "Detection of antimicrobial-resistant bacterial pathogens from houseflies in different locations of Dhaka city"
   corresponding: false
   year: 2025
@@ -21,7 +20,7 @@
   location: "Dhaka, Bangladesh"
   type: conference
   subtype: poster
-  link: "https://doi.org/10.5281/zenodo.15383860"
+  doi: "https://doi.org/10.5281/zenodo.15383860"
   categories:
     - Food safety
     - Bacteriology
